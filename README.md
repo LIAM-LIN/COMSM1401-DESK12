@@ -1,3 +1,6 @@
+# COMSM1401-Desk12
+
+
 # Waste sorting in Bristol
 
 Even in a world comparison, the UK is at the top of the list in terms of how well it has achieved waste separation. But the relative complexity of sorting waste is often devastating. Every city in the UK has different rules for sorting waste, and each city's waste sorting guidelines are cumbersome. Improperly sorted rubbish in the UK can result in high fines, and many long-time residents are not very good at sorting because of the ease of error. The aim of this project is to provide a place for Bristol residents to check their knowledge of waste sorting through a fun point game to reinforce everyone's knowledge of sorting.
