@@ -11,6 +11,8 @@ import { PointComponent } from './components/point/point.component';
 import { ItemComponent } from './components/item/item.component';
 import { GetpointComponent } from './components/getpoint/getpoint.component';
 import { LosepointComponent } from './components/losepoint/losepoint.component';
+import { RankingComponent } from './components/ranking/ranking.component';
+import { ResultComponent } from './components/result/result.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { LosepointComponent } from './components/losepoint/losepoint.component';
     PointComponent,
     ItemComponent,
     GetpointComponent,
-    LosepointComponent
+    LosepointComponent,
+    RankingComponent,
+    ResultComponent
   ],
   imports: [
     BrowserModule
