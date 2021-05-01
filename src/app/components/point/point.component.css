@@ -1,0 +1,25 @@
+.username{
+    color: #B1E4B0;
+}
+
+.points{
+    color: #3285FF;
+}
+
+table{
+    border : 0;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+.pointPic{
+    max-height: 30px;
+}
+.function_pic{
+    float: right;
+    max-height: 30px;
+}
+

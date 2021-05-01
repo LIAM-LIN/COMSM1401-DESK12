@@ -1,0 +1,9 @@
+
+ button{
+    width: 64px;
+    height: 64px;
+    background: url("../../../assets/images/backArrow.png") no-repeat;
+    border-style: none;
+    margin-left:20px;
+    margin-top:20px;
+}
