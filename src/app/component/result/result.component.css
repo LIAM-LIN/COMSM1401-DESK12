@@ -1,0 +1,95 @@
+body {
+  background-color: skyblue;
+  min-width: 1000px;
+}
+
+.flag {
+  padding-top: 4%;
+  padding-bottom: 3%;
+  color: white;
+  font-size: 3.7ch;
+  width: 510px;
+  margin: 0 37%;
+}
+
+.content {
+  width: 100%;
+}
+
+.slogan {
+  color: white;
+  font-size: 2ch;
+  width: 650px;
+  margin: 0 auto;
+}
+
+.result {
+  width: 25%;
+  float: left;
+}
+
+.dog {
+  width: 55%;
+  float: left;
+}
+
+.info {
+  width: 20%;
+  float: left;
+}
+
+.pic {
+  padding: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.right {
+  margin-top: 20%;
+  margin-left: 30%;
+  float: left;
+}
+
+.wrong {
+  margin-top: 20%;
+  float: right;
+}
+
+.number {
+  display: block;
+  margin-left: 40%;
+  margin-top: 20%;
+  font-size: xx-large;
+  color: white;
+}
+
+.date {
+  display: block;
+  margin-left: 40%;
+  margin-top: 20%;
+}
+
+.time {
+  float: left;
+  margin-left: 40%;
+  margin-top: 20%;
+  font-size: x-large;
+  color: white;
+}
+
+.info {
+  margin-top: 2%;
+}
+
+.team {
+  margin: 10% -10%;
+  width: 10%;
+}
+
+.rankinglist {
+  margin: 20% -20%;
+  width: 100%;
+  color: white;
+  height: 8%;
+  font-size: 2ch;
+}

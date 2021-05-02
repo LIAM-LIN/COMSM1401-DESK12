@@ -1,0 +1,47 @@
+<div class="top_bar">
+  <img [src]= "img1" alt="bar_title" >
+
+  <div class="bar_title">
+    <p>Trash Classification</p>
+    <p>Game</p>
+  </div>
+</div>
+
+<div class = "informationColumn">
+  <table class = "informationColumn">
+    <tr >
+      <td class ="username"> {{User.username}} </td>
+      <td><img [src]= "img2" class = "function_pic" alt="point_picture" routerLink="/trash-info-page"></td>
+    </tr>
+    <tr>
+      <td class="points">{{User.points}}&nbsp;<img [src]= "img4" class = "pointPic" alt="point_picture" ></td>
+      <td><img [src]= "img3" class = "function_pic" alt="point_picture" routerLink="/ranking"></td>
+    </tr>
+  </table>
+</div>
+
+<div class="item">
+  <img [src]="itemPic" class = "itemPic" (click)="changeState()" alt="itemPic">
+</div>
+
+<br>
+<br>
+<br>
+<div>{{type}}</div>
+
+<table class="rubbish">
+
+  <tr>
+    <td><img [src]= "box1" class = "rubbish_box" alt="point_picture" (click)="doCheck(1)"></td>
+    <td><img [src]= "box2" class = "rubbish_box" alt="point_picture" (click)="doCheck(2)"></td>
+    <td><img [src]= "box3" class = "rubbish_box" alt="point_picture" (click)="doCheck(3)"></td>
+    <td><img [src]= "box4" class = "rubbish_box" alt="point_picture" (click)="doCheck(4)"></td>
+  </tr>
+  <tr>
+    <td><div class="message">Category1</div></td>
+    <td><div class="message">Category2</div></td>
+    <td><div class="message">Category3</div></td>
+    <td><div class="message">Category4</div></td>
+  </tr>
+
+</table>

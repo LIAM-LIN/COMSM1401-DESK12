@@ -1,0 +1,41 @@
+.login_page{
+  text-align: center;
+}
+.welcome_title{
+  margin-top: 100px;
+  line-height: 30px;
+  color: white;
+}
+ul,li{
+  list-style: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.message{
+  margin-top: 20px;
+  margin-right:40px;
+  text-align: center;
+  outline-style: none;
+  font-size: 16px;
+  font-family: "Calibri", serif;
+  border-radius: 12px;
+  width : 250px;
+}
+
+input{
+  border: #F0F0F0 2px solid;
+  padding : 7px 0px;
+}
+button{
+  background-color: #75BB75;
+  border: none;
+  color: white;
+  padding: 7px 32px;
+}
+
+
+

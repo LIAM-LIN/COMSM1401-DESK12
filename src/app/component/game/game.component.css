@@ -1,0 +1,64 @@
+.top_bar{
+  text-align: center;
+}
+p{
+  color: #134CE7;
+  font-family: "Verdana", serif;
+  line-height: 10px;
+  font-weight: bolder;
+  font-size: 150%;
+}
+
+.username,.points{
+  alignment: left;
+  text-align: left;
+  font-size: 150%;
+}
+
+.username{
+  color: #B1E4B0;
+}
+
+.points{
+  color: #3285FF;
+}
+
+.informationColumn {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.pointPic{
+  max-height: 50px;
+}
+
+.function_pic{
+  float: right;
+  max-height: 50px;
+}
+
+.message{
+  font-family: "Verdana", serif;
+  color: #014EFD;
+  font-weight: bolder;
+}
+
+.rubbish_box{
+  max-height: 150px;
+}
+
+.rubbish {
+  border : 0;
+  text-align: center;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.item{
+  text-align: center;
+}
+img{
+  max-height: 200px;
+}
