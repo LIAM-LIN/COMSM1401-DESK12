@@ -12,6 +12,7 @@ import { ItemComponent } from './components/item/item.component';
 import { GetpointComponent } from './components/getpoint/getpoint.component';
 import { LosepointComponent } from './components/losepoint/losepoint.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

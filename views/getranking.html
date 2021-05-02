@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</button> <a href="/">Index</a>
+
+</button> <a href="/ranking">Input Information</a>
+
+<br>
+
+<ul>
+    <% ranking.forEach(function(ranking) { %>
+       <p>Name: <%= ranking.username %></p>
+       <p>Points: <%= ranking.points %></p>
+    <% }); %>
+ </ul>
+
+</html>
