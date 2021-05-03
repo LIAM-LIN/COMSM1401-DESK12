@@ -24,7 +24,7 @@ body {
   border-style: solid;
   width: 1200px;
   margin: 0 auto;
-  margin-top: 2;
+
 }
 
 table {
@@ -33,3 +33,8 @@ table {
   text-align: center;
   font-size: large;
 }
+
+.container{
+  text-align: center;
+}
+

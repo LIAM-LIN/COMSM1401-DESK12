@@ -9,15 +9,23 @@ import {ActivatedRoute, Router} from '@angular/router';
 export class ResultComponent implements OnInit {
   right = 'assets/img/true.png';
   wrong = 'assets/img/wrong.png';
-  username: string = '';
-  point: number = 0;
+  dog = 'assets/img/dog.png';
+  public People: any = {
+    username: '',
+    points: 0,
+    rightNum: 0,
+    wrongNum: 0
+  };
   constructor(public route: ActivatedRoute) {
   }
 
   ngOnInit(): void {
+    document.body.style.background = 'skyblue';
     this.route.queryParams.subscribe( val => {
-      this.username = val.username;
-      this.point = val.point;
+      this.People.username = val.username;
+      this.People.points = val.point;
+      this.People.rightNum = val.rightNum;
+      this.People.wrongNum = val.wrongNum;
     });
   }
 

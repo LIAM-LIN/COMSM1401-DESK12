@@ -17,10 +17,12 @@ body {
 }
 
 .slogan {
+  text-align: center;
   color: white;
   font-size: 2ch;
   width: 650px;
   margin: 0 auto;
+  font-weight: bolder;
 }
 
 .result {

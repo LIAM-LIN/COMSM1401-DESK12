@@ -6,6 +6,9 @@
   color: #FFFFFF;
   line-height: 30px;
 }
+h1{
+  font-size: 50px;
+}
 button{
   background-color:transparent;
   padding: 7px 32px;
@@ -17,4 +20,3 @@ button{
   outline-style: none;
   border:  1px solid;
 }
-

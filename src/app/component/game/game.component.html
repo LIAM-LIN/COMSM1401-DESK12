@@ -1,5 +1,7 @@
 <div class="top_bar">
   <img [src]= "img1" alt="bar_title" >
+  <br>
+  <br>
 
   <div class="bar_title">
     <p>Trash Classification</p>
@@ -22,12 +24,14 @@
 
 <div class="item">
   <img [src]="itemPic" class = "itemPic" (click)="changeState()" alt="itemPic">
+  <br>
+  <br>
+
+  <p>  {{instruction}}</p>
 </div>
 
 <br>
 <br>
-<br>
-<div>{{type}}</div>
 
 <table class="rubbish">
 
@@ -37,11 +41,15 @@
     <td><img [src]= "box3" class = "rubbish_box" alt="point_picture" (click)="doCheck(3)"></td>
     <td><img [src]= "box4" class = "rubbish_box" alt="point_picture" (click)="doCheck(4)"></td>
   </tr>
-  <tr>
+  <!--<tr>
     <td><div class="message">Category1</div></td>
     <td><div class="message">Category2</div></td>
     <td><div class="message">Category3</div></td>
     <td><div class="message">Category4</div></td>
-  </tr>
+  </tr>-->
 
 </table>
+
+<div class = "Num">
+{{count}} &nbsp;/ &nbsp;10
+</div>

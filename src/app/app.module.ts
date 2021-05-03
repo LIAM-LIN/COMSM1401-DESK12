@@ -9,10 +9,14 @@ import { PointComponent } from './component/point/point.component';
 import { GameComponent } from './component/game/game.component';
 import { ResultComponent } from './component/result/result.component';
 import { RankingComponent } from './component/ranking/ranking.component';
-import { TrashInfoBackComponent} from './component/trash-info-back/trash-info-back.component';
-import { TrashInfoHeadComponent} from './component/trash-info-head/trash-info-head.component';
 import { TrashInfoPageComponent} from './component/trash-info-page/trash-info-page.component';
-import {TrashInfoSlideComponent} from './component/trash-info-slide/trash-info-slide.component';
+import { BarComponent } from './component/bar/bar.component';
+import { BlackBoxComponent } from './component/black-box/black-box.component';
+import { BrownBoxComponent } from './component/brown-box/brown-box.component';
+import { BlueBoxComponent } from './component/blue-box/blue-box.component';
+import { GreenBoxComponent } from './component/green-box/green-box.component';
+
+
 
 @NgModule({
   declarations: [
@@ -23,10 +27,12 @@ import {TrashInfoSlideComponent} from './component/trash-info-slide/trash-info-s
     GameComponent,
     ResultComponent,
     RankingComponent,
-    TrashInfoBackComponent,
-    TrashInfoHeadComponent,
     TrashInfoPageComponent,
-    TrashInfoSlideComponent
+    BarComponent,
+    BlackBoxComponent,
+    BrownBoxComponent,
+    BlueBoxComponent,
+    GreenBoxComponent
   ],
   imports: [
     BrowserModule,

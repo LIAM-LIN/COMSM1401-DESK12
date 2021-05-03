@@ -6,6 +6,10 @@ import {GameComponent} from './component/game/game.component';
 import {RankingComponent} from './component/ranking/ranking.component';
 import {TrashInfoPageComponent} from './component/trash-info-page/trash-info-page.component';
 import {ResultComponent} from './component/result/result.component';
+import {BlackBoxComponent} from './component/black-box/black-box.component';
+import {BlueBoxComponent} from './component/blue-box/blue-box.component';
+import {BrownBoxComponent} from './component/brown-box/brown-box.component';
+import {GreenBoxComponent} from './component/green-box/green-box.component';
 const routes: Routes = [
   {
     path: 'login', component: LoginComponent
@@ -26,7 +30,19 @@ const routes: Routes = [
     path: 'result', component: ResultComponent
   },
   {
-    path: '**', redirectTo: 'start'
+    path: 'black', component: BlackBoxComponent
+  },
+  {
+    path: 'blue', component: BlueBoxComponent
+  },
+  {
+    path: 'brown', component: BrownBoxComponent
+  },
+  {
+    path: 'green', component: GreenBoxComponent
+  },
+  {
+    path: '**', redirectTo: 'result'
   }
 
 ];
