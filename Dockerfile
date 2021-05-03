@@ -14,6 +14,8 @@ RUN npm i mongoose
 
 COPY --chown=node:node . .
 
+RUN ./node_modules/.bin/ng build
+
 EXPOSE 3000
 
 CMD [ "node", "app.js" ]

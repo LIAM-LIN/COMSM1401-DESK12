@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const path = require('path');
+const ranking = require('../controllers/ranking');
 
 router.use (function (req,res,next) {
   console.log('/' + req.method);

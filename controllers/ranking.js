@@ -11,8 +11,7 @@ exports.insert = function (req, res) {
         if(err) {
             res.status(400).send('Unable to save data');
         } else {
-            //console.log(docs)
-            res.redirect('/ranking/getranking');
+            res.redirect('/ranking/');
         }
     });
 };
