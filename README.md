@@ -2,29 +2,19 @@
 
 # Project Report : Waste sorting in Bristol
 
-##Outline
-###[Our team](#Our team:)
-###[Introduction](#Introduction)
-###[Background and Motivation](#Background and Motivation)
-###[System Implementation](#System Implementation)
-###[UX Design](#UX Design)
-###[Sprints and Project Management](#Sprints and Project Management)
-###[Evaluation](#Evaluation)
-###[Conclusion](#Conclusion)
-
-###Our team:
-####<img src="https://avatars.githubusercontent.com/u/72544310?s=64&v=4"  alt="lin's photo" height="100"> Rongxiang Lin</br>
+### Our team:
+#### <img src="https://avatars.githubusercontent.com/u/72544310?s=64&v=4"  alt="lin's photo" height="100"> Rongxiang Lin</br>
 ​								Working on design, front-end and back-end.
-####<img src="https://avatars.githubusercontent.com/u/78803621?s=64&v=4"  alt="wang's photo" height="100"> Yingcan Wang</br>
+#### <img src="https://avatars.githubusercontent.com/u/78803621?s=64&v=4"  alt="wang's photo" height="100"> Yingcan Wang</br>
 ​								Working on design, front-end and back-end.
-####<img src="https://avatars.githubusercontent.com/u/78803465?s=64&v=4" alt="shi's photo" height="100">Terry Shi </br>
+#### <img src="https://avatars.githubusercontent.com/u/78803465?s=64&v=4" alt="shi's photo" height="100">Terry Shi </br>
 ​								Working on design, front-end and back-end.
-####<img src="https://avatars.githubusercontent.com/u/56572092?s=64&v=4" alt="yu's photo" height="100"> Matt Yu </br>
+#### <img src="https://avatars.githubusercontent.com/u/56572092?s=64&v=4" alt="yu's photo" height="100"> Matt Yu </br>
 ​								Working on design, front-end and back-end.
-####<img src="https://avatars.githubusercontent.com/u/75314804?s=64&v=4" alt="hu's photo" height="100"> Xueyan Hu</br>
+#### <img src="https://avatars.githubusercontent.com/u/75314804?s=64&v=4" alt="hu's photo" height="100"> Xueyan Hu</br>
 ​								Working on design and materials.
 
-#Introduction
+# Introduction
 Recycling trash is a great way to protect our environment and stimulate our economy, 
 and sorting our waste is extremely beneficial for recycling.
 However, it takes time and effort to learn the rules of waste sorting where you live, and the rules often vary from city to city.
@@ -55,7 +45,7 @@ Realistic and practical:
 
 [Demo: click here] (url)
 
-#Background and Motivation
+# Background and Motivation
 Nowadays, nearly 90% of what we throw away could potentially be recovered through reuse, recycling or composting.[1]
 What will get us as close to this percentage as possible is waste sorting.
 According to the [Kerbside recycling guide](https://bristolwastecompany.co.uk/wp-content/uploads//2020/07/Pin-up-and-keep-recycling-guide-Bristol-Waste.pdf)
@@ -102,8 +92,8 @@ References:
 
 
 
-#System Implementation
-#UX Design
-#Sprints and Project Management
-#Evaluation
-#Conclusion
+# System Implementation
+# UX Design
+# Sprints and Project Management
+# Evaluation
+# Conclusion
