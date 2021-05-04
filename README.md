@@ -2,6 +2,15 @@
 
 # Project Report : Waste sorting in Bristol
 
+### Outline
+[Introduction](#introduction)  
+[Background and Motivation](#background-and-motivation)  
+[System Implementation](#system-implementation)  
+[UX Design](#ux-design)  
+[Sprints and Project Management](#sprints-and-project-management)  
+[Evaluation](#evaluation)  
+[Conclusion](#conclusion)  
+
 ### Our team:
 #### <img src="https://avatars.githubusercontent.com/u/72544310?s=64&v=4"  alt="lin's photo" height="100"> Rongxiang Lin</br>
 ​								Working on design, front-end and back-end.
@@ -86,7 +95,7 @@ References:
 [1]. https://www.ecocycle.org/files/pdfs/why_recycle_%20brochure.pdf  
 [2]. https://bristolwastecompany.co.uk/wp-content/uploads//2020/07/Pin-up-and-keep-recycling-guide-Bristol-Waste.pdf  
 [3]. Wang et al., 2020, From intention to behavior: Comprehending residents’ waste sorting intention and behavior formation process  
-[4]. Wang et al., 2020, From intention to behavior: Comprehending residents’ waste sorting intention and behavior formation process
+[4]. Wang et al., 2020, From intention to behavior: Comprehending residents’ waste sorting intention and behavior formation process  
 [5]. Zhang et al., 2019, From intention to action: How do personal attitudes, facilities accessibility, and government stimulus matter for household waste sorting?
 
 
