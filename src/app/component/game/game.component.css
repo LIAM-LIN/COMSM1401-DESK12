@@ -2,7 +2,7 @@
   text-align: center;
 }
 p{
-  color: #134CE7;
+  color: black;
   font-family: "Verdana", serif;
   line-height: 10px;
   font-weight: bolder;
@@ -16,7 +16,7 @@ p{
 }
 
 .username{
-  color: #B1E4B0;
+  color: black;
 }
 
 .points{

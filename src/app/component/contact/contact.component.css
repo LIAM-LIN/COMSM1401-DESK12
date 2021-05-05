@@ -1,0 +1,75 @@
+
+.text-part{
+  width: 65%;
+  height: 70%;
+}
+p{
+  font-size: 24px;
+  line-height: 50px;
+}
+.contact-area{
+  width: 100%;
+  background-color: #D4D7DE;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Istok Web', sans-serif;
+  font-weight: bold;
+}
+textarea {
+  resize: none;
+}
+h1 {
+  font-size: 36px;
+  margin-top: 45px;
+}
+h2 {
+  font-size: 31px;
+}
+
+.contact {
+  background-color: #D4D7DE;
+  padding: 3em 1em;
+}
+.contact h1 {
+  padding-bottom: 30px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-top: 0px;
+}
+
+.contact p {
+  margin-bottom: 15px;
+}
+
+.contact p.contact-desc {
+  margin-bottom: 25px;
+  line-height: 27px;
+}
+
+.form-control {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #D4D7DE;
+  border-radius: 0px;
+  padding: 15px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.contact-info{
+  margin-left: 38px;
+  padding: 30px 0px 70px 0px;
+}
+
+.btn-send-2 {
+  padding: 18px 60px;
+  background-color: #333;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 32px;
+}
+
+textarea#message {
+  margin-top: 35px;
+}

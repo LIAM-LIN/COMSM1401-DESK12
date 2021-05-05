@@ -41,7 +41,7 @@ export class GameComponent implements OnInit {
   }
 
   constructor(public route: ActivatedRoute, private router: Router) {
-    document.body.style.background = '#F4FFDC';
+    document.body.style.background = '#D4D7DE';
   }
 
   ngOnInit(): void {

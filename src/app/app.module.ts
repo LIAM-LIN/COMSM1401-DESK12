@@ -16,6 +16,12 @@ import { BrownBoxComponent } from './component/brown-box/brown-box.component';
 import { BlueBoxComponent } from './component/blue-box/blue-box.component';
 import { GreenBoxComponent } from './component/green-box/green-box.component';
 import { HomeComponent } from './component/home/home.component';
+import { CardComponent } from './component/card/card.component';
+import { HomeBarComponent } from './component/home-bar/home-bar.component';
+import { ContactComponent } from './component/contact/contact.component';
+import { AboutComponent } from './component/about/about.component';
+import { InformationComponent } from './component/information/information.component';
+import { LeaderboardComponent } from './component/leaderboard/leaderboard.component';
 
 
 
@@ -35,6 +41,12 @@ import { HomeComponent } from './component/home/home.component';
     BlueBoxComponent,
     GreenBoxComponent,
     HomeComponent,
+    CardComponent,
+    HomeBarComponent,
+    ContactComponent,
+    AboutComponent,
+    InformationComponent,
+    LeaderboardComponent,
   ],
   imports: [
     BrowserModule,

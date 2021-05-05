@@ -1,0 +1,31 @@
+body {
+  background-color: #d4d7de;
+  font-family: Maison Neue,sans-serif;
+}
+
+.title {
+  border-color: black;
+  border-style: solid;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  border-color: black;
+  border-style: solid;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+table {
+  width: 1200px;
+  background-color: white;
+  text-align: center;
+  font-size: large;
+  border: 1px solid;
+}
+
+.container{
+  text-align: center;
+}
+

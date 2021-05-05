@@ -13,7 +13,7 @@ export class LoginComponent implements OnInit {
   constructor(public router: Router) { }
 
   ngOnInit(){
-    document.body.style.background = '#93E192';
+   document.body.style.background = '#D4D7DE';
   }
 
   doLogin() {

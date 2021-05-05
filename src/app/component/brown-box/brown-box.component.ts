@@ -10,6 +10,7 @@ export class BrownBoxComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    document.body.style.background = '#D4D7DE';
   }
 
 }
