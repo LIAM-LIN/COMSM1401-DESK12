@@ -6,9 +6,8 @@
   </div>
   <div class="login_message">
     <ul class ="row_3">
-      <li><input type="text" [(ngModel)]="username"  class="message"></li>
-      <li><button class="message" (click)="doLogin()" routerLink="/game" [queryParams]="{name:username}">Login</button></li>
-
+      <li><input type="text" [(ngModel)]="username"  placeholder="Enter your username" class="message"></li>
+      <li><button class="message" (click)="doLogin()" >Login</button></li>
     </ul>
   </div>
 </div>

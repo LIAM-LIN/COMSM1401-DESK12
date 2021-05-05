@@ -10,7 +10,6 @@ export class StartComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    document.body.style.background = '#93E192';
   }
 
 }

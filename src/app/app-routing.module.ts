@@ -10,6 +10,7 @@ import {BlackBoxComponent} from './component/black-box/black-box.component';
 import {BlueBoxComponent} from './component/blue-box/blue-box.component';
 import {BrownBoxComponent} from './component/brown-box/brown-box.component';
 import {GreenBoxComponent} from './component/green-box/green-box.component';
+import {HomeComponent} from './component/home/home.component';
 const routes: Routes = [
   {
     path: 'login', component: LoginComponent
@@ -42,7 +43,10 @@ const routes: Routes = [
     path: 'green', component: GreenBoxComponent
   },
   {
-    path: '**', redirectTo: 'result'
+    path: 'home', component: HomeComponent
+  },
+  {
+    path: '**', redirectTo: 'login'
   }
 
 ];

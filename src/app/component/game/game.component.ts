@@ -48,7 +48,7 @@ export class GameComponent implements OnInit {
     this.changePic();
     /*this.itemPic = 'assets/item/' + this.type + '/' + this.number + '.png';*/
     this.route.queryParams.subscribe( val => {
-      this.User.username = val.name;
+      this.User.username = val.username;
     });
   }
 
