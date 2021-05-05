@@ -104,6 +104,7 @@ References:
 # System Implementation
 # UX Design
 # Sprints and Project Management
+
 #### Agile model:  
 As the waterfall model is very unrealistic and requires additional planning and execution, we naturally went for the Agile model.
 In our opinion, the waterfall model is only an idealized model used to illustrate the software development process.
@@ -121,6 +122,7 @@ Then a whole new sprint will begin!
 During one sprint, we communicate in detail mainly via WeChat. We discuss specific problems, exchange materials and share learning resources on WeChat.
 It's very handy and I recommend you try it!
 #### Team roles:
+
 
 # Evaluation
 # Conclusion
