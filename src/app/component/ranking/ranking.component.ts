@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ActivatedRoute, Router} from '@angular/router';
 
 @Component({
   selector: 'app-ranking',
@@ -7,10 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RankingComponent implements OnInit {
 
-  constructor() { }
+  public User: any = {
+    username: '',
+    points: 0
+  };
+
+  constructor(public route: ActivatedRoute, private router: Router) {
+    document.body.style.background = 'gold';
+  }
 
   ngOnInit(): void {
-    document.body.style.background = 'gold';
+    /*this.itemPic = 'assets/item/' + this.type + '/' + this.number + '.png';*/
+    this.route.queryParams.subscribe( val => {
+      this.User.username = val.name;
+      this.User.points = val.points;
+    });
 
   }
 
