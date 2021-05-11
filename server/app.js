@@ -76,21 +76,67 @@ app.post('/api/user/create', (req, res) => {
 })
 
 
-//已经连接数据库，只需要输出每一条记录就可以
+
 app.get('/api/user/ranking', (req, res) => {
-    mongoose.connect(url, function(err) {
+    mongoose.connect(url, { useMongoClient: true }, function(err) {
         if (err) throw err;
 
-        ranking = 1;
-        res.send(ranking);
-        // User.find({}).sort({ points: -1 }).limit(10).exec(function(err, ranking) {
-        //     if (err) throw err;
-        //     res.send(ranking);
+        User.find({}).sort({ points: -1 }).limit(10).exec(function(err, ranking) {
+            if (err) throw err;
 
-        // res.render('/ranking', {
-        //     ranking: ranking
-        // });
+            return res.status(200).json({
+                // status: 'success',
+                data: ranking
+            })
+        })
+
+        // User.find({
+        //     username: req.body.username,
+        //     password: req.body.password
+        // }, function(err, user) {
+        //     if (err) throw err;
+        //     if (user.length === 1) {
+        //         return res.status(200).json({
+        //             status: 'success',
+        //             data: user
+        //         })
+        //     } else {
+        //         return res.status(200).json({
+        //             status: 'fail',
+        //             message: 'Login Failed'
+        //         })
+        //     }
+        // })
     });
-});
+})
+
+
+// app.get('/api/user/ranking', (req, res) => {​​​​​
+//     mongoose.connect(url, function(err) {​​​​​
+//         if (err) throw err;
+//         return res.status(200).json({​​​​​
+//             status: 'success',
+//             data: 1
+//         }​​​​​)
+//     }​​​​​);
+// }​​​​​)
+
+//已经连接数据库，只需要输出每一条记录就可以
+// app.get('/api/user/ranking', (req, res) => {
+//     mongoose.connect(url, function(err) {
+//         if (err) throw err;
+
+//         res.send(1);
+
+
+//         // User.find({}).sort({ points: -1 }).limit(10).exec(function(err, ranking) {
+//         //     if (err) throw err;
+//         //     res.send(ranking);
+
+//         //     res.render('/ranking', {
+//         //         ranking: ranking
+//         //     });
+//     });
+// });
 
 app.listen(3000, () => console.log('Server running on port 3000!'))
