@@ -12,16 +12,23 @@
 [Conclusion](#conclusion)  
 
 ### Our team:
-#### <img src="https://avatars.githubusercontent.com/u/72544310?s=64&v=4"  alt="lin's photo" height="100"> Rongxiang Lin</br>
-​								Working on design, front-end and back-end.
-#### <img src="https://avatars.githubusercontent.com/u/78803621?s=64&v=4"  alt="wang's photo" height="100"> Yingcan Wang</br>
-​								Working on design, front-end and back-end.
-#### <img src="https://avatars.githubusercontent.com/u/78803465?s=64&v=4" alt="shi's photo" height="100">Terry Shi </br>
-​								Working on design, front-end and back-end.
-#### <img src="https://avatars.githubusercontent.com/u/56572092?s=64&v=4" alt="yu's photo" height="100"> Matt Yu </br>
-​								Working on design, front-end and back-end.
-#### <img src="https://avatars.githubusercontent.com/u/75314804?s=64&v=4" alt="hu's photo" height="100"> Xueyan Hu</br>
-​								Working on design and materials.
+<table style="width:100%">
+    <tr>
+        <td style="text-align: center;"><img src="https://avatars.githubusercontent.com/u/72544310?s=64&v=4" alt="lin's photo" width="100"></td>
+        <td style="text-align: center;"><img src="https://avatars.githubusercontent.com/u/78803621?s=64&v=4" alt="wang's photo" width="100"></td>
+        <td style="text-align: center;"><img src="https://avatars.githubusercontent.com/u/78803465?s=64&v=4" alt="shi's photo" width="100"></td>
+        <td style="text-align: center;"><img src="https://avatars.githubusercontent.com/u/56572092?s=64&v=4" alt="yu's photo" width="100"></td>
+        <td style="text-align: center;"><img src="https://avatars.githubusercontent.com/u/75314804?s=64&v=4" alt="hu's photo" width="100"></td>
+    </tr>
+    <tr>
+        <td colspan="1" style="text-align: center;">Rongxiang Lin <br>Design, front-end and back-end.</td>
+        <td colspan="1" style="text-align: center;">Yingcan Wang <br>Design, front-end and back-end</td>
+        <td colspan="1" style="text-align: center;">Terry Shi <br>Design, front-end and back-end</td>
+        <td colspan="1" style="text-align: center;">Matt Yu <br>Design, front-end and back-end</td>
+        <td colspan="1" style="text-align: center;">Xueyan Hu <br>Design and materials</td>
+    </tr>
+</table>
+
 
 # Introduction
 Recycling trash is a great way to protect our environment and stimulate our economy, 
@@ -105,15 +112,21 @@ References:
 # UX Design
 We mainly divide the UX design into four parts.Product inspiration,source of demand,requirement analysis and prototype design.
 #### Product inspiration:
-Our initial project has several options, including donation steps, tram recommendation and garbage sorting. Donation steps are mainly recorded by users walking through users, and then uploaded to our game for donation, so as to obtain donation points, promote users' Healthy Travel and reduce obesity. However, it is difficult to make statistics, And the PC side can not count and give up. Tram recommendation is mainly to recommend new trams to users, to simulate the fuel consumption and actual driving style of trams and fuel vehicles, so as to reduce the use of fuel vehicles. However, due to the small number of trams, the game is less interesting and abandoned. Finally, we chose garbage classification to teach users how to classify Bristol garbage.
+Our initial project has several options, including donation steps, tram recommendation and garbage sorting. 
+Donation steps are mainly recorded by users walking through users, and then uploaded to our game for donation, so as to obtain donation points, promote users' Healthy Travel and reduce obesity. 
+However, it is difficult to make statistics, And the PC side can not count and give up. Tram recommendation is mainly to recommend new trams to users, to simulate the fuel consumption and actual driving style of trams and fuel vehicles, so as to reduce the use of fuel vehicles. 
+However, due to the small number of trams, the game is less interesting and abandoned. Finally, we chose garbage classification to teach users how to classify Bristol garbage.
 #### Source of demand:
-Our product design inspiration comes from the recent garbage classification publicity in China. Since the implementation of garbage classification in Shanghai, many residents have a headache because they don't know how to classify and can't distinguish the types of garbage. Therefore, we investigated the garbage classification in Bristol and found that many details of the garbage classification in Bristol are very troublesome and difficult to distinguish. Therefore, we hope to provide Bristol residents with a simple garbage classification game to help them better classify their garbage.
+Our product design inspiration comes from the recent garbage classification publicity in China. Since the implementation of garbage classification in Shanghai, many residents have a headache because they don't know how to classify and can't distinguish the types of garbage.
+Therefore, we investigated the garbage classification in Bristol and found that many details of the garbage classification in Bristol are very troublesome and difficult to distinguish.
+Therefore, we hope to provide Bristol residents with a simple garbage classification game to help them better classify their garbage.
 #### Requirement analysis:
-We interviewed several different types of users, including students and residents in Bristol. They didn't know about the classification methods of some residual drinks and waste toothbrushes in daily life, because they all gave wrong answers. We found that users didn't know much about the basic garbage classification knowledge in daily life, Therefore, we hope that through the game of garbage and garbage can matching, to help users improve this knowledge, and with the corresponding introduction, to popularize the knowledge of garbage classification.
+We interviewed several different types of users, including students and residents in Bristol. They didn't know about the classification methods of some residual drinks and waste toothbrushes in daily life, because they all gave wrong answers. 
+We found that users didn't know much about the basic garbage classification knowledge in daily life, Therefore, we hope that through the game of garbage and garbage can matching, to help users improve this knowledge, and with the corresponding introduction, to popularize the knowledge of garbage classification.
 #### Prototype design:
 In the prototype design, we maintain the principle of simplicity and consistency, giving up the complex login, but through the simple input of user name to distinguish users, and can directly answer questions to participate in the game, correct score, wrong score deduction.
 #### Paper prototype
-<div align=center><img width="300" src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Paper%20prototype%20(1).jpeg?raw=true" alt = "paperprototype"/></div> <br/>
+<div align=center><img width="300" src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/prototype%20drawings/Paper%20prototype.jpeg?raw=true" alt = "paperprototype"/></div> <br/>
 Prototype:
 https://org.modao.cc/app/0495ad4723ecd596f4ea4108493972ba19de9756?simulator_type=device&sticky
 
@@ -134,9 +147,89 @@ We will then test and check what we have implemented together. During this proce
 what needs to be improved and what new ideas have come out of the sprint process. After this, we will finalise the plan for the next few days and assign tasks to each member.
 Then a whole new sprint will begin!  
 During one sprint, we communicate in detail mainly via WeChat. We discuss specific problems, exchange materials and share learning resources on WeChat.
-It's very handy and I recommend you try it!
+It's very handy, and I recommend you try it!
 #### Team roles:
+----:   
+
+----:   
+
+----：   
+
+----:   
+
+Xueyan Hu: Researcher. He was responsible for collecting the photographic material and writing part of the report.
 
 
 # Evaluation
 # Conclusion
+#### Working practice
+The biggest flaw of our group work practice was that we took too long to prepare ourselves for the project, we took too long to learn what we needed to know for the project, 
+so we started the actual development late and ended up with not enough time left. In fact none of us had any prior experience with web development and we needed to learn everything from scratch.   
+
+The lectures this course gave us were all about management, communication, design and working models.
+Basically, it tried to teach us how to code effectively with others and how to build a wonderful thing with our code skill.   
+The problem is -- we do not know how to code yet! And that's pretty much why we came here！
+
+The good thing was that after we prepared ourselves, everything become pretty smooth. Our team members are all very motivated and responsible, which saved a lot of trouble in communication and management.
+Even though some of the team members are not so good at writing code, they give their best to the team in other ways.   
+After a lot of intense hard work, we finally made it!
+#### Success of the project
+Our project has achieved almost all of its objectives and because we're learning web development from the scratch, we're considering this a huge success!   
+We started our learning from html, then CSS, than the whole MEAN stack. We have to say the most valuable treasures we have gained from this group project 
+are these code skills and the camaraderie we have with each other.   
+Here is a checklist:
+Fun and attractive:  
+1.Nice and clean user interface with uniformly styled images of rubbish pictures.  --TICK     
+2.Sufficient and interesting positive feedback for users when they are right.  --TICK      
+3.A reliable and long-lasting leaderboard.   --TICK      
+
+Realistic and practical:     
+1.Strict and accurate waste separation rules from official sources.  --TICK    
+2.Trash materials that are as close as possible to the normal life of the user.  --TICK    
+3.Accurate, clear and easy-to-read explanations of waste sorting rules when users make mistakes.  --NOT TICK
+
+Because we had so many pieces of trash in the game, we ended up not having enough time to write feedback for each piece of trash. This can be considered as future work.
+
+#### Remote working experience
+For all of us, it has been an unusual year due to the impact of the COVID-19. 
+This was the very first time that all of us in the group had a purely online learning and collaboration session.
+One of our group members is in Bristol, two are in Beijing, one is in Shanghai and one is in Anhui, China.
+We have not met at all between the group members except at TEAMS, 
+but we do not think that not being able to meet has affected our collaboration or what we have learned from the course.   
+
+In fact, based on the specificity of computer science, all the work and study, not almost, can be done online.
+And the advanced development of instant communication tools and online collaboration tools has given us access to facilities that were unimaginable in the past.
+By making full use of these tools, we have minimised the negative impact of COVID-19.
+In our opinion, the greatest impact of not being able to see each other is reflected in the fellowship of our teammates. 
+Although we went to school together and did a really great job together, we didn't get the chance to get to know each other better.
+Fortunately, however, the COVID-19 has disappeared from sight in China. After we finish our exams, we will meet offline to promote our fellowship!
+
+#### Social and Ethical implication
+Our project was designed to help people better understand waste sorting so that it can be better implemented in Bristol, which is perfectly in line with the requirement of deontic ethics.
+When it comes to consequentialist ethics, we still believe that the impact of our projects will be positive. 
+Although we've developed a nice and fun game, we don't think anyone will become addicted to it - I mean, they'll just learn more about waste sorting!   
+
+Another issue we need to talk about is the information entered by the user. At the start of the game, you will be asked to enter your username. 
+Although our game does not make any requirements for this input, as we only use it as a key to record the user's achievements, 
+it is possible that the information entered by the user will be displayed publicly. If the user enters private information, this information may be compromised,
+but this possibility is very small, because we just ask you to enter something as you please!   
+Of course, it is also possible for users to enter unfriendly or harmful information, but at present our project is not able to handle this automatically.
+
+#### Future work
+**Find nearby user and add friend:**   
+In the future, provided that users consent and information is properly protected,
+we hope that our application will be able to record the geographic information of utility users and allow them to see and simply interact with nearby users.    
+We also want users to be able to add people they know or don't know as friends in the game and see each other's score. This will make the game more interesting for them.
+As the game is aimed at Bristol residents, we thought it would be great if we could get users to socialise through the game. 
+This will increase their interest in learning about waste sorting and bring more added value to the project.
+
+**Online match:**    
+Based on the last feature we wanted to implement, we want our game to enable users to match up with other players who are matching and then start playing at the same time to compete!
+At the end of the game they can choose whether to add each other as friends or not. This will provide a more social aspect to the game and make it more interesting.
+
+**Maintain:**   
+We want to keep our game as practical as possible and although the rules for sorting waste in the game are now up to date, the rules are subject to change. We need to maintain this.
+
+**Privacy warning and input screening:**   
+At the beginning of the game when the user is asked to enter a username, we should explicitly warn the user that this input may be displayed on the leaderboard to prevent them from entering unwise information.   
+We also need to improve our project so that it can filter harmful and unfriendly information, or at least add a reporting mechanism.
