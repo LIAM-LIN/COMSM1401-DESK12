@@ -14,7 +14,7 @@
     </tr>
     <tr>
         <td colspan="1" style="text-align: center;">Rongxiang Lin <br>Design, front-end and back-end.</td>
-        <td colspan="1" style="text-align: center;">Yingcan Wang <br>Design, front-end and back-end</td>
+        <td colspan="1" style="text-align: center;">Yingcan Wang <br>Front-end and api-writter.</td>
         <td colspan="1" style="text-align: center;">Terry Shi <br>Design, front-end and back-end</td>
         <td colspan="1" style="text-align: center;">Matt Yu <br>Design, front-end and back-end</td>
         <td colspan="1" style="text-align: center;">Xueyan Hu <br>Design and materials</td>
