@@ -4,10 +4,10 @@ We mainly divide the UX design into four parts.Product inspiration,source of dem
 
 #### Product inspiration:
 
-Our initial project has several options, including donation steps, tram recommendation and garbage sorting. 
-Donation steps are mainly recorded by users walking through users, and then uploaded to our game for donation, so as to obtain donation points, promote users' Healthy Travel and reduce obesity. 
-However, it is difficult to make statistics, And the PC side can not count and give up. Tram recommendation is mainly to recommend new trams to users, to simulate the fuel consumption and actual driving style of trams and fuel vehicles, so as to reduce the use of fuel vehicles. 
-However, due to the small number of trams, the game is less interesting and abandoned. Finally, we chose garbage classification to teach users how to classify Bristol garbage.
+Our initial project has several options, including donation steps, tram recommendation and rubbish classification. 
+Donation steps are mainly recorded by users walking through users, and then uploaded to our game for donation. In this way people can obtain donation points，keep exercise and reduce obesity. 
+However, it is difficult to make statistics and the PC side can not count steps so that we give up. Tram recommendation is mainly to recommend new trams to users to simulate the fuel consumption and actual driving style of trams and fuel vehicles.We hope in this way we can reduce the use of fuel vehicles to protect environment.
+But due to the few types of trams, the game is less interesting and abandoned. Finally, we chose rubbish classification to teach users how to classify Bristol rubbish.
 
 #### Source of demand:
 
@@ -30,3 +30,8 @@ In the prototype design, we maintain the principle of simplicity and consistency
 
 Prototype:
 https://org.modao.cc/app/0495ad4723ecd596f4ea4108493972ba19de9756?simulator_type=device&sticky
+<div align=center><img width="300" src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/prototype%20drawings/1_Welcome_Page.png?raw=true" alt = "paperprototype"/></div> <br/>
+<div align=center><img width="300" src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/prototype%20drawings/2_Login.png?raw=true" alt = "paperprototype"/></div> <br/>
+<div align=center><img width="300" src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/prototype%20drawings/3_Game.png?raw=true" alt = "paperprototype"/></div> <br/>
+<div align=center><img width="300" src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/prototype%20drawings/6_Trash_1.png?raw=true" alt = "paperprototype"/></div> <br/>
+<div align=center><img width="300" src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/prototype%20drawings/10_Result.png?raw=true" alt = "paperprototype"/></div> <br/>
