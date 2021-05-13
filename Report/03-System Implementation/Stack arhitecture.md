@@ -4,4 +4,5 @@ Our team is mainly divided into three pieces, design, front-end and back-end, so
 
 As it is a component-based development, we have a very consistent control of how each component relates to the back-end. We sketched out the process early on in the development process as shown below.
 
-![stack](..\img\stack.png)
+<div align=center><img width="700" src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Report/img/stack.png?raw=true" alt = "stack"/></div> <br/>
+
