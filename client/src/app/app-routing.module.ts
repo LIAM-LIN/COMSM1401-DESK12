@@ -30,6 +30,9 @@ const routes: Routes = [
     path: 'ranking', component: RankingComponent
   },
   {
+    path: 'leaderboard', component: RankingComponent
+  },
+  {
     path: 'trash-info-page', component: TrashInfoPageComponent
   },
   {
@@ -62,9 +65,9 @@ const routes: Routes = [
   {
     path: 'information', component: InformationComponent
   },
-  {
-    path: 'leaderboard', component: LeaderboardComponent
-  },
+  //{
+  //  path: 'leaderboard', component: LeaderboardComponent
+  //},
   {
     path: '**', redirectTo: 'home'
   }

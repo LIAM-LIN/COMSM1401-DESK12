@@ -1,4 +1,2 @@
-
-
-# COMSM1401-DESK12
-remember to "npm install" before run it
+RUN `node app.js` from server directory
+RUN `npm start` from client directory

@@ -1,3 +1,4 @@
+<!--
 <body>
 <div class="heading">
   <h1> Rankings List -- Top 10 this month!</h1>
@@ -97,4 +98,104 @@
   </div>
 </div>
 </body>
+-->
 
+<body>
+  <div class="heading">
+      <h1> Rankings List -- Top 10 this month!</h1>
+  </div>
+
+  <div class="title">
+      <table cellpadding="12px">
+          <tr>
+              <th width="240px">Rank</th>
+              <th width="240px">Name</th>
+              <th width="240px">Correct</th>
+              <th width="240px">Wrong</th>
+              <th width="240px">Score</th>
+          </tr>
+      </table>
+  </div>
+
+  <div class="content">
+      <table cellpadding="15px">
+          <tr>
+              <td width="240px">1</td>
+              <td width="240px">{{this.usernameList[0]}}</td>
+              <td width="240px">{{this.rightNumList[0]}}</td>
+              <td width="240px">{{this.wrongNumList[0]}}</td>
+              <td width="240px">{{this.pointsList[0]}}</td>
+          </tr>
+          <tr>
+              <td>2</td>
+              <td>{{this.usernameList[1]}}</td>
+              <td>{{this.rightNumList[1]}}</td>
+              <td>{{this.wrongNumList[1]}}</td>
+              <td>{{this.pointsList[1]}}</td>
+          </tr>
+          <tr>
+              <td>3</td>
+              <td>{{this.usernameList[2]}}</td>
+              <td>{{this.rightNumList[2]}}</td>
+              <td>{{this.wrongNumList[2]}}</td>
+              <td>{{this.pointsList[2]}}</td>
+          </tr>
+          <tr>
+              <td>4</td>
+              <td>{{this.usernameList[3]}}</td>
+              <td>{{this.rightNumList[3]}}</td>
+              <td>{{this.wrongNumList[3]}}</td>
+              <td>{{this.pointsList[3]}}</td>
+          </tr>
+          <tr>
+              <td>5</td>
+              <td>{{this.usernameList[4]}}</td>
+              <td>{{this.rightNumList[4]}}</td>
+              <td>{{this.wrongNumList[4]}}</td>
+              <td>{{this.pointsList[4]}}</td>
+          </tr>
+          <tr>
+              <td>6</td>
+              <td>{{this.usernameList[5]}}</td>
+              <td>{{this.rightNumList[5]}}</td>
+              <td>{{this.wrongNumList[5]}}</td>
+              <td>{{this.pointsList[5]}}</td>
+          </tr>
+          <tr>
+              <td>7</td>
+              <td>{{this.usernameList[6]}}</td>
+              <td>{{this.rightNumList[6]}}</td>
+              <td>{{this.wrongNumList[6]}}</td>
+              <td>{{this.pointsList[6]}}</td>
+          </tr>
+          <tr>
+              <td>8</td>
+              <td>{{this.usernameList[7]}}</td>
+              <td>{{this.rightNumList[7]}}</td>
+              <td>{{this.wrongNumList[7]}}</td>
+              <td>{{this.pointsList[7]}}</td>
+          </tr>
+          <tr>
+              <td>9</td>
+              <td>{{this.usernameList[8]}}</td>
+              <td>{{this.rightNumList[8]}}</td>
+              <td>{{this.wrongNumList[8]}}</td>
+              <td>{{this.pointsList[8]}}</td>
+          </tr>
+          <tr>
+              <td>10</td>
+              <td>{{this.usernameList[9]}}</td>
+              <td>{{this.rightNumList[9]}}</td>
+              <td>{{this.wrongNumList[9]}}</td>
+              <td>{{this.pointsList[9]}}</td>
+          </tr>
+      </table>
+  </div>
+  <br>
+
+  <div class="container">
+      <div class="but">
+          <button type="button" class="btn btn-warning btn-lg btn-block" routerLink="/home">BACK TO HOME</button>
+      </div>
+  </div>
+</body>
