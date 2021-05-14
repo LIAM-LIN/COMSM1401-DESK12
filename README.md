@@ -71,9 +71,7 @@ Project Objectives
 
 ## Video
 
-
-
-<a href="https://www.bilibili.com/video/bv1v541137ve"><img  src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Report/img/video.png?raw=true"></a>
+<div align=center><a href="https://www.bilibili.com/video/bv1v541137ve"><img width="700" src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Report/img/video.png?raw=true" alt = "gov"/></a></div>
 
 Documentation
 -----
