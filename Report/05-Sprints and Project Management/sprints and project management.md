@@ -96,41 +96,110 @@ At the same time, we shared useful learning resources with each other and helped
 
 
 
-#### 17/04/2021:  **Start Sprint!!**
+**#### 17/04/2021: \**Start Sprint!!\****
 
-User story:   
-Users want to be able to access web pages by typing the URL into their browser.   --Sprint??    
 
-Users want to be able to enter their username and start the game by clicking the start button on the page.    --Sprint??
 
-Users see a pop-up picture of the waste and the four waste separation bins.     --Sprint??
+User needs and corresponding design implementation :
 
-User clicks on the correct bin, add points, click on the wrong bin, deduct points.    --Sprint??
 
-When users click on the wrong bin, they can see the correct answer and the corresponding rule explanation.     --This is a future work.    
 
-Users can see their own points.    --Sprint??
+- Be able to access web pages by typing the URL into their browser. 
 
-Users sort ten separate pop-ups of waste, then jump to the results page.     --Sprint??
+  
 
-Users can click submit to submit their scores.    --Sprint??
+- Be able to enter their username and start the game by clicking the start button on the page. 
 
-Users click on the button and then ump to the leaderboard page.    --Sprint??
+  
 
-**Sprint1:**    
+- See a pop-up picture of the waste and the four waste separation bins. 
+
+  
+
+- Clicks on the correct bin, add points, click on the wrong bin, deduct points. 
+
+  
+
+- When users click on the wrong bin, they can see the correct answer and the corresponding rule explanation.
+
+  
+
+- Users can see their own points. 
+
+  
+
+- Sort ten separate pop-ups of waste, then jump to the results page.
+
+  
+
+- Users can click submit to submit their scores. 
+
+  
+
+- Users click on the button and then jump to the leaderboard page.
+
+  
+
+- Website updates user's score with their highest one.
+
+
+
+
+
+***\*Front-end Development:\****  
+
+A separate knowledge section has been implemented to allow users to learn about waste separation in writing outside of the game. -2021.3.2
+
+
+
 Determine the design of the web pages and draw out the data transfer relationships between them. - 2021.3.18
 
-Determine how the internal logic of the game is implemented, proposing a random folder with random numbers to implement random images. 2021.3.23
 
-A separate knowledge section has been implemented to allow users to learn about waste separation in writing outside of the game. 2021.3.2
 
-**Sprint2:**    
-??backend development??
+Determine how the internal logic of the game is implemented, proposing a random folder with random numbers to implement random images. -2021.3.23
 
-**Sprint3:**    
-??database??
 
-**Sprint4:**    
+
+Started the whole angular project and building different components separately. -2021.4.17
+
+
+
+Implemented the RESTful API of create user result and test the communication across client and server. -2021.4.22
+
+
+
+Parse the JSON content and implement the data to ranking list structure. -2021.4.28
+
+
+
 We propose that our web page needs a home page on which the various components are mounted. - 2021.4.29
 
-####
+
+
+***\*Back-end Development:\****  
+
+Developed server-side start program app.js,  and managed to connect mongodb. -2021.4.20
+
+
+
+Complete the Dockerfile and enable the project to be built and run through docker-compose. -2021.4.20
+
+
+
+Design the Mongoose Schema adapted to the front-end data structure and create the model file. -2021.4.21
+
+
+
+Developed RESTfulAPI to obtain data from the front end and save it to mongodb through express method to achieve persistence. -2021.4.22
+
+
+
+Developed the methods to get ranking list from mongodb and response as JSON content. -2021.4.27
+
+
+
+Modify the storage method. Make the best scores automatically saved under the same user name. -2021.5.4
+
+
+
+**####**
