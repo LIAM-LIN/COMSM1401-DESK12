@@ -193,7 +193,7 @@ Based on the cooperation of the group members, we may have subconsciously someho
             <th>what is continuous integration[1]</th>
     </tr>
     <tr>
-        <td><img src="../img/ci.png" align = "center" width = 500 alt = "ci"/></td>
+        <td><img src="../img/ci.png" align = "center" width = 800 alt = "ci"/></td>
     </tr>
 </table>
 <table>
@@ -201,7 +201,7 @@ Based on the cooperation of the group members, we may have subconsciously someho
             <th>what is continuous deployment[2]</th>
     </tr>
     <tr>
-        <td><img src="../img/cd.png" align = "center" width = 500 alt = "cd"/></td>
+        <td><img src="../img/cd.png" align = "center" width = 800 alt = "cd"/></td>
     </tr>
 </table>
 Our project has two important branches, one for dev and one for report. These two branches are separate from each other.     
@@ -218,7 +218,7 @@ When the feature has been completed, the feature branch will be merged to dev.
 
 Report branch is the branch where we write reports together. When writing the report, we made intensive and simultaneous changes to the same documents. 
 This is when we really appreciated the important role git plays in collaborative multi-person programming.
-
-References: 
+ 
+References:      
 [1]. Kostis Kapelonis, "Understanding the Difference Between CI and CD." Available:https://thenewstack.io/understanding-the-difference-between-ci-and-cd/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website     
 [2]. Kostis Kapelonis, "Understanding the Difference Between CI and CD." Available:https://thenewstack.io/understanding-the-difference-between-ci-and-cd/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website
