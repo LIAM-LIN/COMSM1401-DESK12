@@ -18,12 +18,72 @@ It's very handy, and I recommend you try it!
 
 #### Team roles:
 
-----:   
+Rongxiang Lin: Leader. Responsible for the development of front-end web pages and the integration of materials. He pushed us forward!      
 
-----:   
+Terry Shi: Designer.Responsible for the prototype design and some development of front-end web pages.    
 
-----：   
+Shenxuan Yu: Developer. He collaborated with others to develop backends and APIs.   
 
 Yingcan Wang: Developer. He was responsible for writing front pages of components in results and ranking parks. Besides, he wrote API with other developers.
 
 Xueyan Hu: Researcher. He was responsible for collecting the photographic material and writing part of the report.
+
+#### Sprints
+**timeline:**    
+09/02/2021 - 09/03/2021: Forming ideas and background research    
+During this time period, we settled on the amazing idea for our group project - to help people know more about waste sorting. 
+We then did some background research and decided to develop a game to help people understand the rules of waste sorting.     
+<div class = "half" style="text-align: center;">
+<img src = ""  width = 50 align = left alt = "wechatdesign1"><img src = ""  width = 50 align = right alt = "wechatdesign2">
+</div>
+<div align=center><img width="700" src="" alt = "teamsdesign1"/></div> <br/>
+<div style="text-align: center;">Discussion about idea in WeChat and Teams</div>     
+
+10/03/2021 - 31/03/2021: Prototyping, collecting materials and learning together     
+During this time frame, we completed electronic and paper versions of the prototype drawings and collected the required materials. 
+At the same time, we shared useful learning resources with each other and helped each other to learn from each other.     
+<div class = "half" style="text-align: center;">
+<img src = ""  width = 50 align = left alt = "wechatproto1"><img src = ""  width = 50 align = right alt = "teamsproto">
+</div>
+<div style="text-align: center;">Discussion about prototyping in WeChat and Teams</div>  
+
+01/04/2021 - 16/04/2021: We are immersed in learning!
+<div class = "half" style="text-align: center;">
+<img src = ""  width = 50 align = left alt = "wechatlearn1"><img src = ""  width = 50 align = right alt = "wechatcollect1">
+</div>
+<div style="text-align: center;">Discussion about learning and collecting material in WeChat</div> 
+
+
+#### 17/04/2021:  **Start Sprint!!**
+User story:   
+Users want to be able to access web pages by typing the URL into their browser.   --Sprint??    
+
+Users want to be able to enter their username and start the game by clicking the start button on the page.    --Sprint??
+
+Users see a pop-up picture of the waste and the four waste separation bins.     --Sprint??
+
+User clicks on the correct bin, add points, click on the wrong bin, deduct points.    --Sprint??
+
+When users click on the wrong bin, they can see the correct answer and the corresponding rule explanation.     --This is a future work.    
+
+Users can see their own points.    --Sprint??
+
+Users sort ten separate pop-ups of waste, then jump to the results page.     --Sprint??
+
+Users can click submit to submit their scores.    --Sprint??
+
+Users click on the button and then ump to the leaderboard page.    --Sprint??
+
+**Sprint1:**    
+??components frontpage development??
+
+**Sprint2:**    
+??backend development??
+
+**Sprint3:**    
+??database??
+
+**Sprint4:**    
+??modify frontpage??
+
+#### Team use of Git 
