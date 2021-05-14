@@ -33,6 +33,7 @@ Xueyan Hu: Researcher. He was responsible for collecting the photographic materi
 09/02/2021 - 09/03/2021: Forming ideas and background research    
 During this time period, we settled on the amazing idea for our group project - to help people know more about waste sorting. 
 We then did some background research and decided to develop a game to help people understand the rules of waste sorting.     
+
 <div class = "half" style="text-align: center;">
 <img src = ""  width = 50 align = left alt = "wechatdesign1"><img src = ""  width = 50 align = right alt = "wechatdesign2">
 </div>
@@ -42,6 +43,7 @@ We then did some background research and decided to develop a game to help peopl
 10/03/2021 - 31/03/2021: Prototyping, collecting materials and learning together     
 During this time frame, we completed electronic and paper versions of the prototype drawings and collected the required materials. 
 At the same time, we shared useful learning resources with each other and helped each other to learn from each other.     
+
 <div class = "half" style="text-align: center;">
 <img src = ""  width = 50 align = left alt = "wechatproto1"><img src = ""  width = 50 align = right alt = "teamsproto">
 </div>
@@ -75,7 +77,11 @@ Users can click submit to submit their scores.    --Sprint??
 Users click on the button and then ump to the leaderboard page.    --Sprint??
 
 **Sprint1:**    
-??components frontpage development??
+Determine the design of the web pages and draw out the data transfer relationships between them. - 2021.3.18
+
+Determine how the internal logic of the game is implemented, proposing a random folder with random numbers to implement random images. 2021.3.23
+
+A separate knowledge section has been implemented to allow users to learn about waste separation in writing outside of the game. 2021.3.2
 
 **Sprint2:**    
 ??backend development??
@@ -84,6 +90,6 @@ Users click on the button and then ump to the leaderboard page.    --Sprint??
 ??database??
 
 **Sprint4:**    
-??modify frontpage??
+We propose that our web page needs a home page on which the various components are mounted. - 2021.4.29
 
 #### Team use of Git 
