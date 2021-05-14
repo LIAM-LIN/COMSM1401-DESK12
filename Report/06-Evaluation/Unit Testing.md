@@ -60,9 +60,9 @@ In the initial test, it was found that the leaderboard data could not be updated
 
 
 
-![ranking](D:\wangyingcan\Desktop\ranking.jpg)
+![ranking](..\img\ranking.jpg)
 
-![db](D:\wangyingcan\Desktop\db.png)
+![db](..\img\db.png)
 
 
 
@@ -70,9 +70,9 @@ In the code calling the interface method, we found that the logic to determine t
 
 
 
-![ranking1](D:\wangyingcan\Desktop\ranking1.png)
+![ranking1](..\img\ranking1.png)
 
-![db1](D:\wangyingcan\Desktop\db1.png)
+![db1](..\img\db1.png)
 
 
 
