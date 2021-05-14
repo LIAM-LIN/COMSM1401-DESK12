@@ -151,8 +151,9 @@ The test was found to pass successfully.
 
 Our user testing is mainly based on the feedback of two users. Both of them are students from Bristol. We hope to get feedback and help through their experience of the game. We also provide feedback channels in our game, and we can be contacted through email.
 
-User 1 
+#### User 1 
 He is a 26 year old student. In the process of the game, he thinks that the game is more difficult, because he can't do a good job of rubbish classification.
-User 2
+#### User 2
 He is a 23-year-old student. In the process of the game, most of the rubbish classification is correct, but there is a situation that she does not know how many questions she has answered correctly.
+#### Conclusion
 Therefore, in order to solve these problems, we introduced the details of rubbish classification in the process of the game, which is from the official website of the British government. In this way, it tells users how to classify rubbish. In addition, we show the current points of users, and give the ranking, to improve the fun and enthusiasm of users to participate in the game.
