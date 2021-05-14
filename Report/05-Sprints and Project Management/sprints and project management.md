@@ -94,13 +94,9 @@ At the same time, we shared useful learning resources with each other and helped
 
 <br>
 
+17/04/2021 - 14/05/2021: Start Sprint!!
 
-
-**#### 17/04/2021: \**Start Sprint!!\****
-
-
-
-User needs and corresponding design implementation :
+User needs and corresponding design implementation :***
 
 
 
@@ -146,7 +142,7 @@ User needs and corresponding design implementation :
 
 
 
-***\*Front-end Development:\****  
+***Front-end Development:***  
 
 A separate knowledge section has been implemented to allow users to learn about waste separation in writing outside of the game. -2021.3.2
 
@@ -176,7 +172,7 @@ We propose that our web page needs a home page on which the various components a
 
 
 
-***\*Back-end Development:\****  
+***Back-end Development:***
 
 Developed server-side start program app.js,  and managed to connect mongodb. -2021.4.20
 
@@ -203,3 +199,4 @@ Modify the storage method. Make the best scores automatically saved under the sa
 
 
 **####**
+
