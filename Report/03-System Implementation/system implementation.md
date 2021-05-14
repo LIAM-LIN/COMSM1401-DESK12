@@ -1,10 +1,10 @@
 ## Table of Contents
 
-1.[System design](#sd)
-2.[Back End](#be) 
-3.[Middle Tier](#mt)
-4.[Front End](#fe)
-5.[Deployment details](dd)
+1. [System design](#sd)
+2. [Back End](#be) 
+3. [Middle Tier](#mt)
+4. [Front End](#fe)
+5. [Deployment details](dd)
 
 # <a name ="sd">System design</a>
 
