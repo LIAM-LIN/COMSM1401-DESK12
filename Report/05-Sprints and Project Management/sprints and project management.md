@@ -24,6 +24,6 @@ It's very handy, and I recommend you try it!
 
 ----：   
 
-----:   
+Yingcan Wang: Developer. He was responsible for writing front pages of components in results and ranking parks. Besides, he wrote API with other developers.
 
 Xueyan Hu: Researcher. He was responsible for collecting the photographic material and writing part of the report.
