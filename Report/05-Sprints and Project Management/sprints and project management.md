@@ -72,22 +72,6 @@ At the same time, we shared useful learning resources with each other and helped
     </tr>
 </table>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <br>
 
 <br>
@@ -198,5 +182,19 @@ Modify the storage method. Make the best scores automatically saved under the sa
 
 
 
-**####**
+####Team Use of Git
+Our project has two important branches, one for dev and one for report. These two branches are separate from each other.     
+The dev branch is a working master branch where all team members merge their feature branches. Under branch dev, there are many features branches.
+When the feature has been completed, the feature branch will be merged to dev.    
+<table>
+    <tr>
+            <th>final branches</th>
+    </tr>
+    <tr>
+        <td><img src="../img/branches.png" align = "center" width = 500 alt = "branches"/></td>
+    </tr>
+</table>
+
+Report branch is the branch where we write reports together. When writing the report, we made intensive and simultaneous changes to the same documents. 
+This is when we really appreciated the important role git plays in collaborative multi-person programming.
 
