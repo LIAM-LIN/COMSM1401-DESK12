@@ -96,7 +96,7 @@ At the same time, we shared useful learning resources with each other and helped
 
 17/04/2021 - 14/05/2021: Start Sprint!!
 
-User needs and corresponding design implementation :***
+***User needs and corresponding design implementation :***
 
 
 
