@@ -147,11 +147,130 @@ The parameters passed into the front-end page through HttpClient are passed into
 this.http.get('/api/user/ranking').subscribe((result: any) => {})
 ```
 
+
+
 # <a name ="mt">Middle Tier</a>
 
+### General
+
+In the middle layer that handles the interaction between the front-end page and the database, we choose to use Express and Node.js to build our own RESTful API
+
+Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications. It facilitates the rapid development of Node based Web applications.
+
+REST is a software architectural style which uses a subset of HTTP.It is commonly used to create interactive applications that use Web services. A Web service that follows these guidelines is called RESTful. Such a Web service must provide its Web resources in a textual representation and allow them to be read and modified with a stateless protocol and a predefined set of operations. This approach allows interoperability between the computer systems on the Internet that provide these services. REST is an alternative to, for example, SOAP as way to access a Web service.
+
+API is the acronym for "Application Programming Interface". It is a software that allows two applications to communicate with each other over the internet and through various devices. Every time you access an app like Facebook or check the weather on your smartphone, an API is used.
+
+Web service APIs that adhere to the REST architectural constraints are called RESTful APIs.[14] HTTP-based RESTful APIs are defined with the following aspects:
+
+- a base URI, such as http://api.example.com/;
+- standard HTTP methods (e.g., GET, POST, PUT, and DELETE);
+- a media type that defines state transition data elements (e.g., Atom, microformats). The current representation tells the client how to compose requests for transitions to all the next available application states. This could be as simple as a URI or as complex as a Java applet.
+
+### Design goal
+
+The design goal of our RESTfulAPI is to pass user data structures (Schema set by Mongoose) between server and client:
+
+```js
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+const userSchema = new Schema({
+    username: { type: String, required: true, unique: true },
+    points: { type: Number, required: true },
+    rightNum: { type: Number, required: true },
+    wrongNum: { type: Number, required: true }
+}, { collection: 'user' });
+
+const User = mongoose.model('User', userSchema);
+
+module.exports = User;
+```
+
+Two functions are mainly required:
+
+- Create a user and write data to mongodb
+
+- Read user data, sort it in descending order, and output the top ten data to form a ranking list
+
+	
+
+### Function realization
+
+Thanks to express's rich interfaces and functions, simple implementations can be found in both of our methods. After constructing the api routes, the front end can call the functions accordingly, and the connection with mongodb depends on the mongoose.connect() function.
+
+#### User Create
+
+```js
+app.post('/api/user/create', (req, res) => {
+    mongoose.connect(url, function(err) {
+        if (err) throw err;
+        const user = new User({
+            username: req.body.username,
+            points: req.body.points,
+            rightNum: req.body.rightNum,
+            wrongNum: req.body.wrongNum,
+        })
+        user.save((err, res) => {
+            if (err) throw err;
+            return
+        })
+    });
+})
+```
 
 
 
+#### Get Ranking List
+
+This is a tricky part. The express method can directly implement our rankings by setting parameters. The difficulty lies in processing the returned parameters. We choose to use the json format and process the JSON method in the front-end app.component.ts
+
+```js
+app.get('/api/user/ranking', (req, res) => {
+    mongoose.connect(url, { useMongoClient: true }, function(err) {
+        if (err) throw err;
+
+        User.find({}).sort({ points: -1 }).limit(10).exec(function(err, ranking) {
+            if (err) throw err;
+
+            return res.status(200).json({
+                // status: 'success',
+                data: ranking
+            })
+        })
+    });
+})
+```
+
+### Use of API
+
+The parts we use the RESTful API are on the result and ranking pages.
+
+As mentioned earlier, in the getRanking method, we choose to transmit JSON data and parse it in the front-end method, which can make the front-end and back-end separation and the development process more efficient.
+
+The parsing process is as follows
+
+```js
+this.http.get('/api/user/ranking').subscribe((result: any) => {
+    
+      this.arr = result;     
+    
+      for (var _i = 0; _i < result.data.length; _i++) {
+        this.usernameList.push(JSON.stringify(result.data[_i]['username']).substring(1,this.checkStringLength(JSON.stringify(result.data[_i]['username']))-1));
+        this.rightNumList.push(JSON.stringify(result.data[_i]['rightNum']));
+        this.wrongNumList.push(JSON.stringify(result.data[_i]['wrongNum']));   
+        this.pointsList.push(JSON.stringify(result.data[_i]['points']));  
+      }
+
+      for (_i = result.data.length; _i < 10; _i++) {
+        this.usernameList.push("");
+        this.rightNumList.push("");
+        this.wrongNumList.push("");   
+        this.pointsList.push("");  
+      }
+
+    });
+```
 
 # <a name ="fe">Front End</a>
 
