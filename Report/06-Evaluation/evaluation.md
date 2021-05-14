@@ -58,8 +58,6 @@ We want to check that the leaderboard can still be updated after the user has fi
 
 In the initial test, it was found that the leaderboard data could not be updated, and it was even found that the data was not inserted into the database. 
 
-
-
 ![ranking](../img/ranking.jpg)
 
 ![db](../img/db.png)
