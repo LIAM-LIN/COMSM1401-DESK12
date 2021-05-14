@@ -1,0 +1,34 @@
+<body>
+    <div class="slogan">
+        <br>
+        <br>
+        <h1>Classification Expert!</h1>
+        <br> {{People.username}}, thank you for your contribution to environmental protection!
+    </div>
+    <div class="content">
+        <div class="result">
+            <div class="right">
+                <img [src]="right" alt="The number of right answers" width=80px>
+                <span class="number">{{People.rightNum}}</span>
+            </div>
+            <div class="wrong">
+                <img [src]="wrong" alt="The number of wrong answers" width=80px>
+                <span class="number">{{People.wrongNum}}</span>
+            </div>
+            <div class="time">
+                <button (click)="create()">SUBMIT</button>
+            </div>
+        </div>
+        <div class="dog">
+            <div class="pic">
+                <img [src]="dog" alt="pic">
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="rankinglist">
+                <span class="des">click <a href="javascript:" routerLink="/ranking" class="ranking">here </a> to see leaderboard--></span>
+            </div>
+        </div>
+    </div>
+</body>
