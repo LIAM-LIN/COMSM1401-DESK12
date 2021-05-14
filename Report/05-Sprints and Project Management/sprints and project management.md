@@ -182,7 +182,28 @@ Modify the storage method. Make the best scores automatically saved under the sa
 
 
 
-####Team Use of Git
+#### Team Use of Git
+Continuous integration and Continuous deployment:
+In our understanding, continuous integration is about integrating as many times as possible before releasing to avoid uncontrollable tensions and conflicts in the final integration.
+Continuous deployment goes further than continuous integration, i.e. assembling, testing and deploying as much software as possible.     
+However, probably because our project was relatively small and the understanding and cooperation between the team members was very full, we did not use specialist ci/cd tools for development.
+Based on the cooperation of the group members, we may have subconsciously somehow achieved a very basic ci/cd. We will also become more familiar with this concept in the future.
+<table>
+    <tr>
+            <th>what is continuous integration[1]</th>
+    </tr>
+    <tr>
+        <td><img src="../img/ci.png" align = "center" width = 500 alt = "ci"/></td>
+    </tr>
+</table>
+<table>
+    <tr>
+            <th>what is continuous deployment[2]</th>
+    </tr>
+    <tr>
+        <td><img src="../img/cd.png" align = "center" width = 500 alt = "cd"/></td>
+    </tr>
+</table>
 Our project has two important branches, one for dev and one for report. These two branches are separate from each other.     
 The dev branch is a working master branch where all team members merge their feature branches. Under branch dev, there are many features branches.
 When the feature has been completed, the feature branch will be merged to dev.    
@@ -198,3 +219,6 @@ When the feature has been completed, the feature branch will be merged to dev.
 Report branch is the branch where we write reports together. When writing the report, we made intensive and simultaneous changes to the same documents. 
 This is when we really appreciated the important role git plays in collaborative multi-person programming.
 
+References: 
+[1]. Kostis Kapelonis, "Understanding the Difference Between CI and CD." Available:https://thenewstack.io/understanding-the-difference-between-ci-and-cd/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website     
+[2]. Kostis Kapelonis, "Understanding the Difference Between CI and CD." Available:https://thenewstack.io/understanding-the-difference-between-ci-and-cd/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website
