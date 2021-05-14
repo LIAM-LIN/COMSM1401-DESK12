@@ -38,7 +38,7 @@ The project needs to store the data structure is the main class for a user, its 
 
 
 
-![](D:\wangyingcan\Desktop\relationship.png)
+![](Report/img/relationship.png)
 
 
 
