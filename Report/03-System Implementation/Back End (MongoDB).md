@@ -38,7 +38,7 @@ The project needs to store the data structure is the main class for a user, its 
 
 
 
-![](Report/img/relationship.png)
+![image](Report/img/relationship.png)
 
 
 
