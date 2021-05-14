@@ -74,7 +74,7 @@ Connect to the local port of MongoDB through Mongoose, and build the interface t
 
 
 
-Addition API：
+1. Addition API：
 
 
 
@@ -100,7 +100,7 @@ app.post('/api/user/create', (req, res) => {
 
 
 
-Deletion API：
+2. Deletion API：
 
 
 
@@ -119,7 +119,7 @@ app.post('/api/user/remove', (req, res) => {
 
 
 
-Query API：
+3. Query API：
 
 
 
@@ -142,7 +142,7 @@ app.get('/api/user/query', (req, res) => {
 
 
 
-Ranking API (return first 10)：
+4. Ranking API (return first 10)：
 
 
 
