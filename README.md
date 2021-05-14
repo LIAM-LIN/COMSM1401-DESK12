@@ -25,8 +25,6 @@
 
 ## Abstract
 
---------------------------
-
 In this project, we wanted to give people a more detailed understanding of waste segregation through a game, and to bring attention to the boring topic of waste segregation through a more interesting form of quiz.
 
 When you enter the game through our website, the system will randomly generate different pictures of rubbish and you will have to determine which bin the rubbish should go to according to your knowledge. You will be awarded 100 points for a correct answer and 100 points for a wrong answer, and the final score will be linked to our leaderboard.
@@ -35,8 +33,6 @@ The whole website is based on the Bristol waste sorting base and within the webs
 
 Project Objectives
 -------------
-
-------------------------------
 
 <table style="width:100%">
     <tr>
@@ -75,20 +71,12 @@ Project Objectives
 
 ## Video
 
-____________
-
-put a video here to declare the website!
-
-<a href="https://www.bilibili.com/video/bv1v541137ve"><img  src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Report/img/video.png?raw=true></a>
 
 
-
-
+<a href="https://www.bilibili.com/video/bv1v541137ve"><img  src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Report/img/video.png?raw=true"></a>
 
 Documentation
 -----
-
-----------
 
 Here is our full project <a href="https://github.com/LIAM-LIN/COMSM1401-DESK12/tree/main/Report">documentation</a>.
 
