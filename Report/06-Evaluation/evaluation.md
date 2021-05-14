@@ -1,3 +1,22 @@
+## Design Evaluation
+
+### Reasons Evaluation
+
+Nowadays, the theme of waste separation is a hot topic under the theme of environmental protection. In order to vigorously promote waste separation, in recent years, various city municipalities have put waste separation into practice. But it must be said that its impact on our lives cannot be ignored. If you don't know how to separate garbage, you can expect the garbage cans next to your house to be piled up with garbage. The reason is that no refuse collector will pick up mis-sorted garbage. We chose this topic in order to make it more likely that the garbage will be collected instead of us putting it out.
+
+
+
+### Paper Prototyping
+
+Because we chose this topic in no way for any environmental protection issues, but just for the convenience of our own lives. Then the project we do must be simple and easy to implement, and the purpose must be clear. And everyone could participate and learn. So our prototype is more functional while still being fun. We set up the interface before the sorting game to allow users to learn the rules of garbage sorting. Of course, the average user will not read boring documents at the beginning. But when they get frustrated in the game, we still set up a button to jump to the next level, so that they can learn about garbage sorting.
+
+
+
+### About Our Philosophy 
+
+We adhered to the concept of simplifying and unifying the page, and made the single page project as simple as possible, changing the configuration of many components before and after. Finally the number of components was kept to a minimum, and the interface was made more uniform and optimized through front-end component control.
+
+
 ## Unit Testing
 
 
@@ -57,8 +76,6 @@ We want to check that the leaderboard can still be updated after the user has fi
 
 
 In the initial test, it was found that the leaderboard data could not be updated, and it was even found that the data was not inserted into the database. 
-
-
 
 ![ranking](../img/ranking.jpg)
 
