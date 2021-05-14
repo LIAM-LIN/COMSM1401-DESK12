@@ -183,11 +183,11 @@ Modify the storage method. Make the best scores automatically saved under the sa
 
 
 #### Team Use of Git
-Continuous integration and Continuous deployment:
+Continuous integration and Continuous deployment:       
 In our understanding, continuous integration is about integrating as many times as possible before releasing to avoid uncontrollable tensions and conflicts in the final integration.
 Continuous deployment goes further than continuous integration, i.e. assembling, testing and deploying as much software as possible.     
-However, probably because our project was relatively small and the understanding and cooperation between the team members was very full, we did not use specialist ci/cd tools for development.
-Based on the cooperation of the group members, we may have subconsciously somehow achieved a very basic ci/cd. We will also become more familiar with this concept in the future.
+However, probably because our project was relatively small and the understanding and cooperation between the team members was very sufficient, we did not use specialist ci/cd tools for development.
+Based on the cooperation of the group members, we may have subconsciously somehow achieved a very basic ci/cd. We will also become more familiar with this concept in our career.
 <table>
     <tr>
             <th>what is continuous integration[1]</th>
