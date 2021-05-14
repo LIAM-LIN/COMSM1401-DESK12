@@ -4,7 +4,7 @@
 2. [Back End](#be) 
 3. [Middle Tier](#mt)
 4. [Front End](#fe)
-5. [Deployment details](dd)
+5. [Deployment details](#dd)
 
 # <a name ="sd">System design</a>
 
@@ -454,3 +454,9 @@ This page is also made up of several components that are mounted to jump around.
 We have also designed a contact page so that if you have any suggestions to make, you can find us through the contact page. The main thing here is to design good looking input boxes to give the user a visually premium feel.
 
 # <a name ="dd">Deployment details</a>
+
+In this project we are using docker to deploy our project. the name docker is the result of much deliberation and is itself very metaphorical: it borrows from a system that is well established in the real world - the Global Logistics System - to map the role of docker in the software world. The name is a strong metaphor for the role that docker plays in the software world. A very important invention in the GLS is the container. 
+
+Docker automates the repetitive parts of installation, configuration, etc. during deployment. All that is needed is to build a usable docker image (with the container installed) during the first deployment, and then in future use, with just a few lines of command, you can directly pull the image, create a container based on it and run the service. All that is needed is a server with docker installed, a Dockerfile file (packing list), and a relatively smooth network, so it's really a one-time build and deploy everywhere.
+
+In this project, we built two containers, one for MongoDB and the other for angular.
