@@ -35,9 +35,9 @@ During this time period, we settled on the amazing idea for our group project - 
 We then did some background research and decided to develop a game to help people understand the rules of waste sorting.     
 
 <div class = "half" style="text-align: center;">
-<img src = ""  width = 50 align = left alt = "wechatdesign1"><img src = ""  width = 50 align = right alt = "wechatdesign2">
+<img src = "../img/wechat-design1.jpg"  width = 100 align = left alt = "wechatdesign1"><img src = "../img/wechat-design2.jpg"  width = 100 align = right alt = "wechatdesign2">
 </div>
-<div align=center><img width="700" src="" alt = "teamsdesign1"/></div> <br/>
+<div align=center><img width="500" src="../img/teams-design1.png" alt = "teamsdesign1"/></div> <br/>
 <div style="text-align: center;">Discussion about idea in WeChat and Teams</div>     
 
 10/03/2021 - 31/03/2021: Prototyping, collecting materials and learning together     
@@ -45,18 +45,40 @@ During this time frame, we completed electronic and paper versions of the protot
 At the same time, we shared useful learning resources with each other and helped each other to learn from each other.     
 
 <div class = "half" style="text-align: center;">
-<img src = ""  width = 50 align = left alt = "wechatproto1"><img src = ""  width = 50 align = right alt = "teamsproto">
+<img src = "../img/wechat-proto1.jpg"  width = 300 align = left alt = "wechatproto1">
+    <br>
+    <img src = "../img/teams-proto.png"  width = 300 align = right alt = "teamsproto">
 </div>
 <div style="text-align: center;">Discussion about prototyping in WeChat and Teams</div>  
 
 01/04/2021 - 16/04/2021: We are immersed in learning!
 <div class = "half" style="text-align: center;">
-<img src = ""  width = 50 align = left alt = "wechatlearn1"><img src = ""  width = 50 align = right alt = "wechatcollect1">
+<img src = "../img/wechat-learn1.jpg"  width = 300 align = left alt = "wechatlearn1">
+    <br>
+    <img src = "../img/wechat-collect1.jpg"  width = 50 align = right alt = "wechatcollect1">
 </div>
 <div style="text-align: center;">Discussion about learning and collecting material in WeChat</div> 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### 17/04/2021:  **Start Sprint!!**
+
 User story:   
 Users want to be able to access web pages by typing the URL into their browser.   --Sprint??    
 
@@ -92,4 +114,4 @@ A separate knowledge section has been implemented to allow users to learn about 
 **Sprint4:**    
 We propose that our web page needs a home page on which the various components are mounted. - 2021.4.29
 
-#### Team use of Git 
+#### 
