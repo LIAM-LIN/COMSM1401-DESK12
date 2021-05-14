@@ -14,7 +14,7 @@ This means that although people want to sort their waste, they don't know how to
 Research shows that waste sorting knowledge was positively and significantly associated with attitudes and perceived behavioral control.
 Meanwhile, waste sorting knowledge was also positively and significantly associated with residents’ waste sorting intention, too.[4]
 Based on this, we can see that if the knowledge of waste sorting is effectively communicated to the residents, the probability of waste sorting will be greatly increased.
-Also, It is worth noting that some residents engage in waste sorting behaviour not because of their planned intention, but they simply come across good, accessible facilities and government stimulus.[4]
+Also, It is worth noting that some residents engage in waste sorting behaviour not because of their planned intention, but they simply come across good, accessible facilities and government stimulus.[5]
 This shows that if people are given sufficient and interesting guidance, they will sort their waste, even if they don't have the will to do so at first.  
 
 So, in which way can people nowadays acquire the knowledge of waste sorting that applies to where they live?
@@ -30,10 +30,8 @@ In the Bristol Waste Company's website, things are better. There are easy-to-rea
 
 <div align=center><img width="300" src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Report/img/rules.png?raw=true" alt = "rules"/></div> <br/>
 
-Before our time, of course, there are [games](https://recollect.net/waste-sorting-game/) for sorting waste. But as you can see, these games were very crudely made and very old.
+Before our time, of course, there are [games](https://recollect.net/waste-sorting-game/) for sorting waste. But these games were very crudely made and very old.
 The biggest problem is that the rules for sorting waste in these games are inaccurate and do not apply to Bristol, so even if you finish the game, you will not get any useful knowledge about sorting waste!
-
-<div align=center><img width="700" src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Report/img/game.png?raw=true" alt = "game"/></div> <br/>
 
 The problem we are trying to solve then is  the residents of Bristol lack a fun and reliable way to make the process of learning about waste separation easy.
 We tried to solve it by developing a game with a good user experience by strictly following Bristol's waste sorting rules.
