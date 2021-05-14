@@ -32,26 +32,45 @@ Xueyan Hu: Researcher. He was responsible for collecting the photographic materi
 **timeline:**    
 09/02/2021 - 09/03/2021: Forming ideas and background research    
 During this time period, we settled on the amazing idea for our group project - to help people know more about waste sorting. 
-We then did some background research and decided to develop a game to help people understand the rules of waste sorting.     
-<div class = "half" style="text-align: center;">
-<img src = ""  width = 50 align = left alt = "wechatdesign1"><img src = ""  width = 50 align = right alt = "wechatdesign2">
-</div>
-<div align=center><img width="700" src="" alt = "teamsdesign1"/></div> <br/>
-<div style="text-align: center;">Discussion about idea in WeChat and Teams</div>     
+We then did some background research and decided to develop a game to help people understand the rules of waste sorting. 
+<table>
+    <tr>
+            <th>Discussion about idea in WeChat</th>
+            <th>Discussion about idea in WeChat</th>
+            <th>Discussion about idea in Teams</th>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Report/img/wechat-design1.jpg?raw=true" align = "center" width = 200 alt = "wechatdesign1"/></td>
+        <td><img src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Report/img/wechat-design2.jpg?raw=true" align = "center" width = 200 alt = "wechatdesign2"/></td>
+        <td><img src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Report/img/teams-design1.png?raw=true" align = "center" width = 500 alt = "teamsdesign1"/></td>
+    </tr>
+</table>
 
 10/03/2021 - 31/03/2021: Prototyping, collecting materials and learning together     
 During this time frame, we completed electronic and paper versions of the prototype drawings and collected the required materials. 
-At the same time, we shared useful learning resources with each other and helped each other to learn from each other.     
-<div class = "half" style="text-align: center;">
-<img src = ""  width = 50 align = left alt = "wechatproto1"><img src = ""  width = 50 align = right alt = "teamsproto">
-</div>
-<div style="text-align: center;">Discussion about prototyping in WeChat and Teams</div>  
+At the same time, we shared useful learning resources with each other and helped each other to learn from each other. 
+<table>
+    <tr>
+            <th>Discussion about prototyping in WeChat</th>
+            <th>Discussion about prototyping in WeChat and Teams</th>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Report/img/wechat-proto1.jpg?raw=true" align = "center" width = 200 alt = "wechatproto1"/></td>
+        <td><img src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Report/img/teams-proto.png?raw=true" align = "center" width = 500 alt = "teamsproto"/></td>
+    </tr>
+</table>
 
 01/04/2021 - 16/04/2021: We are immersed in learning!
-<div class = "half" style="text-align: center;">
-<img src = ""  width = 50 align = left alt = "wechatlearn1"><img src = ""  width = 50 align = right alt = "wechatcollect1">
-</div>
-<div style="text-align: center;">Discussion about learning and collecting material in WeChat</div> 
+<table>
+    <tr>
+            <th>Discussion about learning in WeChat</th>
+            <th>Discussion about collecting material in WeChat</th>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Report/img/wechat-learn1.jpg?raw=true" align = "center" width = 200 alt = "wechatlearn1"/></td>
+        <td><img src="https://github.com/LIAM-LIN/COMSM1401-DESK12/blob/main/Report/img/wechat-collect1.jpg?raw=true" align = "center" width = 200 alt = "wechatcollect1"/></td>
+    </tr>
+</table>
 
 
 #### 17/04/2021:  **Start Sprint!!**
