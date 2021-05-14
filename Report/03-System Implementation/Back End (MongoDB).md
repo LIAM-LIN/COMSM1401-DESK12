@@ -44,159 +44,134 @@ The project needs to store the data structure is the main class for a user, its 
 
 
 
-Process could be divided into:
 
 
+Define the data structure to store the data via Mongoose：
 
-1. Define the data structure to store the data via Mongoose：
 
 
+```js
+Schema = mongoose.Schema;
 
-`const Schema = mongoose.Schema;`
+const userSchema = new Schema({
 
-`const userSchema = new Schema({`
+  username: { type: String, required: true, unique: true },
 
-  `username: { type: String, required: true, unique: true },`
+  points: { type: Number, required: true },
 
-  `points: { type: Number, required: true },`
+  rightNum: { type: Number, required: true },
 
-  `rightNum: { type: Number, required: true },`
+  wrongNum: { type: Number, required: true }
 
-  `wrongNum: { type: Number, required: true }`
+}, { collection: 'user' });
 
-`}, { collection: 'user' });`
+const User = mongoose.model('User', userSchema);
+```
 
-`const User = mongoose.model('User', userSchema);`
 
 
+Connect to the local port of MongoDB through Mongoose, and build the interface to add, delete, and check the database through the Express framework, because the project needs to do a ranking business, so directly structured an interface to return the top 10 user records of the score.
 
-2. Connect to the local port of MongoDB through Mongoose, and build the interface to add, delete, and check the database through the Express framework, because the project needs to do a ranking business, so directly structured an interface to return the top 10 user records of the score
 
-   
 
-   Addition API：
+Addition API：
 
-   `app.post('/api/user/create', (req, res) => {`
 
-     `mongoose.connect(url, function(err) {`
 
-   ​    `if (err) throw err;`
+```js
+app.post('/api/user/create', (req, res) => {
+    mongoose.connect(url, function(err) {
+        if (err) throw err;
 
-   ​    `const user = new User({`
+        const user = new User({
+            username: req.body.username,
+            points: req.body.points,
+            rightNum: req.body.rightNum,
+            wrongNum: req.body.wrongNum,
+        })
 
-   ​      `username: req.body.username,`
+        user.save((err, res) => {
+            if (err) throw err;
+            res = "success";
+        })
+    })
+})
+```
 
-   ​      `points: req.body.points,`
 
-   ​      `rightNum: req.body.rightNum,`
 
-   ​      `wrongNum: req.body.wrongNum,`
+Deletion API：
 
-   ​    `})`
 
-   ​    `user.save((err, res) => {`
 
-   ​      `if (err) throw err;`
+```js
+app.post('/api/user/remove', (req, res) => {
+    mongoose.connect(url, function(err) {
+        if (err) throw err;
 
-   ​      `res = "success";`
+        User.remove({ "username": req.body.username }, (err, res) => {
+            if (err) throw err;
+            res = "success";
+        })
+    })
+})
+```
 
-   ​    `})`
 
-     `})`
 
-   `})`
+Query API：
 
-   
 
-   Delete API：
 
-   `app.post('/api/user/remove', (req, res) => {`
+```js
+app.get('/api/user/query', (req, res) => {
+    mongoose.connect(url, { useMongoClient: true }, function(err) {
+        if (err) throw err;
 
-     `mongoose.connect(url, function(err) {`
+        User.find({}).exec(function(err, ranking) {
+            if (err) throw err;
 
-   ​    `if (err) throw err;`
+            return res.status(200).json({
+                // status: 'success',
+                data: ranking
+            })
+        })
+    });
+})
+```
 
-   
 
-   ​    `User.remove({ "username": req.body.username }, (err, res) => {`
 
-   ​      `if (err) throw err;`
+Ranking API (return first 10)：
 
-   ​      `res = "success";`
 
-   ​    `})`
 
-     `})`
+```js
+app.get('/api/user/ranking', (req, res) => {
+    mongoose.connect(url, { useMongoClient: true }, function(err) {
+        if (err) throw err;
 
-   `})`
+        User.find({}).sort({ points: -1 }).limit(10).exec(function(err, ranking) {
+            if (err) throw err;
 
-   
+            return res.status(200).json({
+                // status: 'success',
+                data: ranking
+            })
+        })
+    });
+})
+```
 
-   Query API：
 
-   `app.get('/api/user/query', (req, res) => {`
 
-     `mongoose.connect(url, { useMongoClient: true }, function(err) {`
+The parameters passed into the front-end page through HttpClient are passed into the interface, this process of implementation in Js is also the process of front-end and back-end connection, for example, in js to call the sorting interface is implemented as follows:
 
-   ​    `if (err) throw err;`
 
-   
 
-   ​    `User.find({}).exec(function(err, ranking) {`
+```ts
+this.http.get('/api/user/ranking').subscribe((result: any) => {})
+```
 
-   ​      `if (err) throw err;`
 
-   
-
-   ​      `return res.status(200).json({`
-
-   ​        `*// status: 'success',*`
-
-   ​        `data: ranking`
-
-   ​      `})`
-
-   ​    `})`
-
-     `});`
-
-   `})`
-
-   
-
-   Ranking API (return first 10)：
-
-   `app.get('/api/user/ranking', (req, res) => {`
-
-     `mongoose.connect(url, { useMongoClient: true }, function(err) {`
-
-   ​    `if (err) throw err;`
-
-   
-
-   ​    `User.find({}).sort({ points: -1 }).limit(10).exec(function(err, ranking) {`
-
-   ​      `if (err) throw err;`
-
-   
-
-   ​      `return res.status(200).json({`
-
-   ​        `*// status: 'success',*`
-
-   ​        `data: ranking`
-
-   ​      `})`
-
-   ​    `})`
-
-     `});`
-
-   `})`
-
-   
-
-   3. The parameters passed into the front-end page through HttpClient are passed into the interface, this process of implementation in Js is also the process of front-end and back-end connection, for example, in js to call the sorting interface is implemented as follows
-
-      `this.http.get('/api/user/ranking').subscribe((result: any) => {})`
 
